@@ -82,7 +82,7 @@ function DataLoader({ onDataLoaded }) {
     setError('');
 
     try {
-      const response = await fetch(`/health-display/data/${exampleFile}`);
+      const response = await fetch(`/data/${exampleFile}`);
       const data = await response.json();
       const processedData = processResults(data);
       onDataLoaded(processedData);

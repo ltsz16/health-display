@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     // Load tests.json on app start
-    fetch('/health-display/data/tests.json')
+    fetch('/data/tests.json')
       .then(response => response.json())
       .then(data => setTestsData(data))
       .catch(error => console.error('Error loading tests.json:', error))
