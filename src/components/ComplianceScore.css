@@ -1,0 +1,87 @@
+.compliance-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.score-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 8px solid #667eea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+}
+
+.score-value {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #333;
+  line-height: 1;
+}
+
+.score-percent {
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.score-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.score-title {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.score-status {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .score-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .score-circle {
+    width: 140px;
+    height: 140px;
+    border-width: 6px;
+  }
+
+  .score-value {
+    font-size: 2.5rem;
+  }
+
+  .score-percent {
+    font-size: 1.2rem;
+  }
+
+  .score-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .score-status {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}

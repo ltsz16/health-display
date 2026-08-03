@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "createdDate": "2026-08-03",
+    "testDate": "2026-08-01"
+  },
+  "user": {
+    "name": "Sarah Johnson",
+    "gender": "female",
+    "age": 32,
+    "bodyweight": 145,
+    "bodyweightUnit": "lbs"
+  },
+  "results": [
+    {
+      "testId": "strength_001",
+      "categoryId": "strength",
+      "testName": "Trap Bar Deadlift",
+      "value": 185,
+      "unit": "lbs",
+      "notes": "Strong lift"
+    },
+    {
+      "testId": "strength_002",
+      "categoryId": "strength",
+      "testName": "Bench Press",
+      "value": 110,
+      "unit": "lbs",
+      "notes": ""
+    },
+    {
+      "testId": "strength_003",
+      "categoryId": "strength",
+      "testName": "Weighted Pull-Up",
+      "value": 35,
+      "unit": "lbs",
+      "notes": "Added 35 lbs to bodyweight"
+    },
+    {
+      "testId": "strength_004",
+      "categoryId": "strength",
+      "testName": "Chest-Supported Row",
+      "value": 160,
+      "unit": "lbs",
+      "notes": ""
+    },
+    {
+      "testId": "strength_005",
+      "categoryId": "strength",
+      "testName": "Standing Overhead Press",
+      "value": 80,
+      "unit": "lbs",
+      "notes": ""
+    },
+    {
+      "testId": "strength_006",
+      "categoryId": "strength",
+      "testName": "Hand Dynamometer",
+      "value": 36,
+      "unit": "kg",
+      "notes": "Average of both hands"
+    },
+    {
+      "testId": "strength_007",
+      "categoryId": "strength",
+      "testName": "Farmer's Carry",
+      "value": 130,
+      "unit": "feet",
+      "notes": "Carrying 120 lbs per hand"
+    },
+    {
+      "testId": "strength_008",
+      "categoryId": "strength",
+      "testName": "Squat",
+      "value": 185,
+      "unit": "lbs",
+      "notes": "Back squat"
+    },
+    {
+      "testId": "endurance_001",
+      "categoryId": "endurance",
+      "testName": "VO2 Max",
+      "value": 45,
+      "unit": "ml/kg/min",
+      "notes": "Treadmill VO2 max test"
+    },
+    {
+      "testId": "endurance_002",
+      "categoryId": "endurance",
+      "testName": "2000 Meter Row",
+      "value": 455,
+      "unit": "seconds",
+      "notes": "7:35 time"
+    },
+    {
+      "testId": "endurance_003",
+      "categoryId": "endurance",
+      "testName": "Heart Rate Recovery",
+      "value": 48,
+      "unit": "bpm",
+      "notes": "After 1 min max effort sprint"
+    },
+    {
+      "testId": "endurance_004",
+      "categoryId": "endurance",
+      "testName": "Resting Heart Rate",
+      "value": 62,
+      "unit": "bpm",
+      "notes": "Measured in morning"
+    },
+    {
+      "testId": "stamina_001",
+      "categoryId": "stamina",
+      "testName": "Max Push-Ups",
+      "value": 32,
+      "unit": "reps",
+      "notes": ""
+    },
+    {
+      "testId": "stamina_002",
+      "categoryId": "stamina",
+      "testName": "Max Pull-Ups",
+      "value": 10,
+      "unit": "reps",
+      "notes": ""
+    },
+    {
+      "testId": "stamina_003",
+      "categoryId": "stamina",
+      "testName": "Bodyweight Squats (2 min)",
+      "value": 55,
+      "unit": "reps",
+      "notes": ""
+    },
+    {
+      "testId": "stamina_004",
+      "categoryId": "stamina",
+      "testName": "Farmer Carry (Max Distance)",
+      "value": 140,
+      "unit": "feet",
+      "notes": "Moderate load"
+    },
+    {
+      "testId": "stamina_005",
+      "categoryId": "stamina",
+      "testName": "Sled Push",
+      "value": 175,
+      "unit": "feet",
+      "notes": ""
+    },
+    {
+      "testId": "stamina_006",
+      "categoryId": "stamina",
+      "testName": "500m Row Sprint",
+      "value": 108,
+      "unit": "seconds",
+      "notes": "1:48 time"
+    },
+    {
+      "testId": "stamina_007",
+      "categoryId": "stamina",
+      "testName": "Kettlebell Swings",
+      "value": 92,
+      "unit": "reps",
+      "notes": "In 5 minutes, 26lb kettlebell"
+    },
+    {
+      "testId": "power_001",
+      "categoryId": "power",
+      "testName": "Vertical Jump",
+      "value": 20,
+      "unit": "inches",
+      "notes": "Best of 3 attempts"
+    },
+    {
+      "testId": "power_002",
+      "categoryId": "power",
+      "testName": "Broad Jump",
+      "value": 85,
+      "unit": "inches",
+      "notes": ""
+    },
+    {
+      "testId": "power_003",
+      "categoryId": "power",
+      "testName": "Medicine Ball Throw",
+      "value": 28,
+      "unit": "feet",
+      "notes": "10 lb ball, chest pass"
+    },
+    {
+      "testId": "agility_001",
+      "categoryId": "agility",
+      "testName": "T-Test",
+      "value": 10.2,
+      "unit": "seconds",
+      "notes": ""
+    },
+    {
+      "testId": "agility_002",
+      "categoryId": "agility",
+      "testName": "5-10-5 Shuttle",
+      "value": 4.7,
+      "unit": "seconds",
+      "notes": ""
+    },
+    {
+      "testId": "balance_001",
+      "categoryId": "balance",
+      "testName": "Single-Leg Stand",
+      "value": 58,
+      "unit": "seconds",
+      "notes": "Left leg measured"
+    },
+    {
+      "testId": "balance_002",
+      "categoryId": "balance",
+      "testName": "Y-Balance Test",
+      "value": 98,
+      "unit": "inches",
+      "notes": "Average of 3 directions"
+    },
+    {
+      "testId": "mobility_001",
+      "categoryId": "mobility",
+      "testName": "Deep Squat",
+      "value": 3,
+      "unit": "score",
+      "notes": "Full depth, neutral spine"
+    },
+    {
+      "testId": "mobility_002",
+      "categoryId": "mobility",
+      "testName": "Knee-to-Wall",
+      "value": 4.2,
+      "unit": "inches",
+      "notes": ""
+    },
+    {
+      "testId": "mobility_003",
+      "categoryId": "mobility",
+      "testName": "90/90 Hip Rotation",
+      "value": 44,
+      "unit": "degrees",
+      "notes": "Both sides averaged"
+    },
+    {
+      "testId": "mobility_004",
+      "categoryId": "mobility",
+      "testName": "Wall Shoulder Flexion",
+      "value": 3,
+      "unit": "score",
+      "notes": "Excellent shoulder mobility"
+    },
+    {
+      "testId": "mobility_005",
+      "categoryId": "mobility",
+      "testName": "Thoracic Rotation",
+      "value": 44,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_001",
+      "categoryId": "flexibility",
+      "testName": "Sit-and-Reach",
+      "value": 11,
+      "unit": "inches",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_002",
+      "categoryId": "flexibility",
+      "testName": "Thomas Test",
+      "value": 8,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_003",
+      "categoryId": "flexibility",
+      "testName": "Straight-Leg Raise",
+      "value": 75,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_004",
+      "categoryId": "flexibility",
+      "testName": "Doorway Pec Stretch",
+      "value": 3,
+      "unit": "score",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_005",
+      "categoryId": "flexibility",
+      "testName": "Overhead Lat Stretch",
+      "value": 19,
+      "unit": "inches",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_006",
+      "categoryId": "flexibility",
+      "testName": "Cervical ROM",
+      "value": 50,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_007",
+      "categoryId": "flexibility",
+      "testName": "Ely Test",
+      "value": 0.5,
+      "unit": "inches",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_008",
+      "categoryId": "flexibility",
+      "testName": "Knee-to-Wall",
+      "value": 4,
+      "unit": "inches",
+      "notes": ""
+    },
+    {
+      "testId": "flexibility_009",
+      "categoryId": "flexibility",
+      "testName": "Apley Scratch Test",
+      "value": 0.5,
+      "unit": "inches",
+      "notes": "Hands 0.5 inch apart"
+    },
+    {
+      "testId": "body_comp_001",
+      "categoryId": "body_composition",
+      "testName": "Body Fat Percentage",
+      "value": 24,
+      "unit": "%",
+      "notes": "DEXA scan"
+    },
+    {
+      "testId": "body_comp_002",
+      "categoryId": "body_composition",
+      "testName": "Lean Body Mass",
+      "value": 110,
+      "unit": "lbs",
+      "notes": ""
+    },
+    {
+      "testId": "core_001",
+      "categoryId": "core",
+      "testName": "Plank Hold",
+      "value": 105,
+      "unit": "seconds",
+      "notes": ""
+    },
+    {
+      "testId": "core_002",
+      "categoryId": "core",
+      "testName": "Side Plank Hold",
+      "value": 80,
+      "unit": "seconds",
+      "notes": "Left side measured"
+    },
+    {
+      "testId": "core_003",
+      "categoryId": "core",
+      "testName": "Dead Bug",
+      "value": 3,
+      "unit": "score",
+      "notes": "Good form"
+    }
+  ]
+}

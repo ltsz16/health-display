@@ -1,0 +1,778 @@
+{
+  "categories": [
+    {
+      "id": "strength",
+      "name": "Strength",
+      "description": "Maximum force production across different movement patterns",
+      "subCategories": [
+        {
+          "name": "Lower Body Pushing",
+          "testIds": ["strength_001"]
+        },
+        {
+          "name": "Upper Body Pushing",
+          "testIds": ["strength_002"]
+        },
+        {
+          "name": "Upper Body Vertical Pull",
+          "testIds": ["strength_003"]
+        },
+        {
+          "name": "Upper Body Horizontal Pull",
+          "testIds": ["strength_004"]
+        },
+        {
+          "name": "Overhead Strength",
+          "testIds": ["strength_005"]
+        },
+        {
+          "name": "Grip Strength",
+          "testIds": ["strength_006"]
+        },
+        {
+          "name": "Core Strength",
+          "testIds": ["strength_007"]
+        },
+        {
+          "name": "Total Body Power",
+          "testIds": ["strength_008"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "strength_001",
+          "name": "Trap Bar Deadlift",
+          "description": "Lower body pressing strength - maximum weight lifted. Measures posterior chain power and lower body pushing strength.",
+          "videoUrl": "https://www.youtube.com/embed/fJz9tD3pQCQ",
+          "unit": "lbs",
+          "measurementType": "weight",
+          "goalFormula": {
+            "male": "bodyweight * 1.75",
+            "female": "bodyweight * 1.25"
+          }
+        },
+        {
+          "id": "strength_002",
+          "name": "Bench Press",
+          "description": "Upper body pushing strength - maximum weight lifted in horizontal plane.",
+          "videoUrl": "https://www.youtube.com/embed/Eh00SVYwFIg",
+          "unit": "lbs",
+          "measurementType": "weight",
+          "goalFormula": {
+            "male": "bodyweight * 1.0",
+            "female": "bodyweight * 0.65"
+          }
+        },
+        {
+          "id": "strength_003",
+          "name": "Weighted Pull-Up",
+          "description": "Upper body vertical pulling strength - pulling body weight plus added resistance.",
+          "videoUrl": "https://www.youtube.com/embed/TZcj7gHhwRc",
+          "unit": "lbs",
+          "measurementType": "weight",
+          "goalFormula": {
+            "male": "bodyweight * 0.5",
+            "female": "bodyweight * 0.25"
+          }
+        },
+        {
+          "id": "strength_004",
+          "name": "Chest-Supported Row",
+          "description": "Upper body horizontal pulling strength - isolates back without lower body involvement.",
+          "videoUrl": "https://www.youtube.com/embed/pLMZLphq0qw",
+          "unit": "lbs",
+          "measurementType": "weight",
+          "goalFormula": {
+            "male": "bodyweight * 1.25",
+            "female": "bodyweight * 0.85"
+          }
+        },
+        {
+          "id": "strength_005",
+          "name": "Standing Overhead Press",
+          "description": "Overhead pressing strength - core stability and shoulder stability requirement.",
+          "videoUrl": "https://www.youtube.com/embed/CnBmiBqp-AI",
+          "unit": "lbs",
+          "measurementType": "weight",
+          "goalFormula": {
+            "male": "bodyweight * 0.65",
+            "female": "bodyweight * 0.4"
+          }
+        },
+        {
+          "id": "strength_006",
+          "name": "Hand Dynamometer",
+          "description": "Grip strength - maximum squeeze force. Average of three attempts per hand.",
+          "videoUrl": "https://www.youtube.com/embed/gKkJzwvdJ3E",
+          "unit": "kg",
+          "measurementType": "force",
+          "goalFormula": {
+            "male": "bodyweight * 0.72",
+            "female": "bodyweight * 0.45"
+          }
+        },
+        {
+          "id": "strength_007",
+          "name": "Farmer's Carry",
+          "description": "Core and grip endurance - maximum distance carried at heavy load.",
+          "videoUrl": "https://www.youtube.com/embed/JLyM5hKSFuI",
+          "unit": "feet",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "bodyweight * 0.15 in feet",
+            "female": "bodyweight * 0.10 in feet"
+          }
+        },
+        {
+          "id": "strength_008",
+          "name": "Squat",
+          "description": "Total body power and leg strength - maximum weight in back squat position.",
+          "videoUrl": "https://www.youtube.com/embed/xqvCmoLULNY",
+          "unit": "lbs",
+          "measurementType": "weight",
+          "goalFormula": {
+            "male": "bodyweight * 1.5",
+            "female": "bodyweight * 1.0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "endurance",
+      "name": "Endurance",
+      "description": "Cardiovascular capacity and sustained aerobic performance",
+      "subCategories": [
+        {
+          "name": "Aerobic Capacity",
+          "testIds": ["endurance_001"]
+        },
+        {
+          "name": "Whole-Body Endurance",
+          "testIds": ["endurance_002"]
+        },
+        {
+          "name": "Recovery",
+          "testIds": ["endurance_003"]
+        },
+        {
+          "name": "Baseline Fitness",
+          "testIds": ["endurance_004"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "endurance_001",
+          "name": "VO2 Max",
+          "description": "Maximum aerobic capacity - maximum amount of oxygen body can utilize during intense exercise.",
+          "videoUrl": "https://www.youtube.com/embed/A0rAQRNJv-o",
+          "unit": "ml/kg/min",
+          "measurementType": "cardio",
+          "goalFormula": {
+            "male": "age_adjusted_formula: 55.0 - (age * 0.287)",
+            "female": "age_adjusted_formula: 48.0 - (age * 0.255)"
+          }
+        },
+        {
+          "id": "endurance_002",
+          "name": "2000 Meter Row",
+          "description": "Whole-body endurance - time to complete 2km on rowing machine.",
+          "videoUrl": "https://www.youtube.com/embed/pI2VKKvTqBw",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": "420",
+            "female": "480"
+          }
+        },
+        {
+          "id": "endurance_003",
+          "name": "Heart Rate Recovery",
+          "description": "Recovery capacity - heart rate reduction 1 minute after max effort sprint.",
+          "videoUrl": "https://www.youtube.com/embed/0fFCKOAyL-4",
+          "unit": "bpm",
+          "measurementType": "cardio",
+          "goalFormula": {
+            "male": "50",
+            "female": "45"
+          }
+        },
+        {
+          "id": "endurance_004",
+          "name": "Resting Heart Rate",
+          "description": "Baseline cardiovascular fitness - resting pulse measured after 5 minutes of rest.",
+          "videoUrl": "https://www.youtube.com/embed/pX8YXfH4GvY",
+          "unit": "bpm",
+          "measurementType": "cardio",
+          "goalFormula": {
+            "male": "60",
+            "female": "65"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stamina",
+      "name": "Stamina",
+      "description": "Muscular endurance and high-intensity work capacity",
+      "subCategories": [
+        {
+          "name": "Upper Body",
+          "testIds": ["stamina_001"]
+        },
+        {
+          "name": "Pulling",
+          "testIds": ["stamina_002"]
+        },
+        {
+          "name": "Legs",
+          "testIds": ["stamina_003"]
+        },
+        {
+          "name": "Functional",
+          "testIds": ["stamina_004"]
+        },
+        {
+          "name": "Work Capacity",
+          "testIds": ["stamina_005"]
+        },
+        {
+          "name": "High-Intensity",
+          "testIds": ["stamina_006"]
+        },
+        {
+          "name": "Overall Work Capacity",
+          "testIds": ["stamina_007"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "stamina_001",
+          "name": "Max Push-Ups",
+          "description": "Upper body muscular endurance - maximum consecutive push-ups to failure.",
+          "videoUrl": "https://www.youtube.com/embed/IODxDxX7oi4",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": "40",
+            "female": "25"
+          }
+        },
+        {
+          "id": "stamina_002",
+          "name": "Max Pull-Ups",
+          "description": "Pulling muscular endurance - maximum consecutive pull-ups to failure.",
+          "videoUrl": "https://www.youtube.com/embed/eGo4IYlbE5g",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": "15",
+            "female": "8"
+          }
+        },
+        {
+          "id": "stamina_003",
+          "name": "Bodyweight Squats (2 min)",
+          "description": "Leg muscular endurance - maximum bodyweight squats in 2 minutes.",
+          "videoUrl": "https://www.youtube.com/embed/xqvCmoLULNY",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": "60",
+            "female": "50"
+          }
+        },
+        {
+          "id": "stamina_004",
+          "name": "Farmer Carry (Max Distance)",
+          "description": "Functional endurance - maximum distance carrying heavy load.",
+          "videoUrl": "https://www.youtube.com/embed/JLyM5hKSFuI",
+          "unit": "feet",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "150",
+            "female": "100"
+          }
+        },
+        {
+          "id": "stamina_005",
+          "name": "Sled Push",
+          "description": "Work capacity - maximum distance pushed at moderate load.",
+          "videoUrl": "https://www.youtube.com/embed/Yy4jPZqKvCo",
+          "unit": "feet",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "200",
+            "female": "150"
+          }
+        },
+        {
+          "id": "stamina_006",
+          "name": "500m Row Sprint",
+          "description": "High-intensity endurance - time to complete 500m all-out on rowing machine.",
+          "videoUrl": "https://www.youtube.com/embed/pI2VKKvTqBw",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": "95",
+            "female": "115"
+          }
+        },
+        {
+          "id": "stamina_007",
+          "name": "Kettlebell Swings",
+          "description": "Overall work capacity - maximum kettlebell swings in 5 minutes.",
+          "videoUrl": "https://www.youtube.com/embed/5OR8nP2ygFM",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": "100",
+            "female": "80"
+          }
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "name": "Power",
+      "description": "Explosive force generation and athletic movement",
+      "subCategories": [
+        {
+          "name": "Lower Body Explosiveness",
+          "testIds": ["power_001", "power_002"]
+        },
+        {
+          "name": "Upper Body Explosiveness",
+          "testIds": ["power_003"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "power_001",
+          "name": "Vertical Jump",
+          "description": "Lower body explosiveness - maximum height achieved from standing jump.",
+          "videoUrl": "https://www.youtube.com/embed/OMuZQq_TEZE",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "24",
+            "female": "18"
+          }
+        },
+        {
+          "id": "power_002",
+          "name": "Broad Jump",
+          "description": "Lower body power and coordination - maximum distance covered in single jump.",
+          "videoUrl": "https://www.youtube.com/embed/jHIL1d0Wnds",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "100",
+            "female": "80"
+          }
+        },
+        {
+          "id": "power_003",
+          "name": "Medicine Ball Throw",
+          "description": "Upper body explosiveness - maximum distance throwing 10lb medicine ball.",
+          "videoUrl": "https://www.youtube.com/embed/lYX1yO7MJ4A",
+          "unit": "feet",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "35",
+            "female": "25"
+          }
+        }
+      ]
+    },
+    {
+      "id": "agility",
+      "name": "Agility",
+      "description": "Rapid direction changes and movement efficiency",
+      "subCategories": [
+        {
+          "name": "Lateral Movement",
+          "testIds": ["agility_001", "agility_002"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "agility_001",
+          "name": "T-Test",
+          "description": "Multi-directional agility - time to complete T-shaped running pattern.",
+          "videoUrl": "https://www.youtube.com/embed/BqvV7cCNlIQ",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": "10.0",
+            "female": "10.5"
+          }
+        },
+        {
+          "id": "agility_002",
+          "name": "5-10-5 Shuttle",
+          "description": "Lateral agility - time to complete shuttle run with directional changes.",
+          "videoUrl": "https://www.youtube.com/embed/Z-YBMrLgJDo",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": "4.5",
+            "female": "5.0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "Balance",
+      "description": "Stability and proprioceptive control",
+      "subCategories": [
+        {
+          "name": "Static Balance",
+          "testIds": ["balance_001"]
+        },
+        {
+          "name": "Dynamic Balance",
+          "testIds": ["balance_002"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "balance_001",
+          "name": "Single-Leg Stand",
+          "description": "Static balance - time standing on one leg with eyes open.",
+          "videoUrl": "https://www.youtube.com/embed/S-sI0xPzMwA",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": "60",
+            "female": "60"
+          }
+        },
+        {
+          "id": "balance_002",
+          "name": "Y-Balance Test",
+          "description": "Dynamic balance and reach - maximum reach distance in three directions.",
+          "videoUrl": "https://www.youtube.com/embed/Oa1Ry-pHDpU",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "106",
+            "female": "96"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility",
+      "description": "Active range of motion with strength and control",
+      "subCategories": [
+        {
+          "name": "Lower Body Mobility",
+          "testIds": ["mobility_001", "mobility_002", "mobility_003"]
+        },
+        {
+          "name": "Upper Body Mobility",
+          "testIds": ["mobility_004", "mobility_005"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "mobility_001",
+          "name": "Deep Squat",
+          "description": "Lower body mobility - ability to achieve full depth squat with neutral spine. Scored 0-3.",
+          "videoUrl": "https://www.youtube.com/embed/UK2w6Gs-pGQ",
+          "unit": "score",
+          "measurementType": "qualitative",
+          "goalFormula": {
+            "male": "3",
+            "female": "3"
+          }
+        },
+        {
+          "id": "mobility_002",
+          "name": "Knee-to-Wall",
+          "description": "Ankle mobility - minimum distance between wall and toes at maximum knee flexion.",
+          "videoUrl": "https://www.youtube.com/embed/1B1fB9VuQ-g",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "4",
+            "female": "4"
+          }
+        },
+        {
+          "id": "mobility_003",
+          "name": "90/90 Hip Rotation",
+          "description": "Hip mobility - range of motion in deep hip flexion position. Measured in degrees.",
+          "videoUrl": "https://www.youtube.com/embed/LBP8pjNGdtc",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": "45",
+            "female": "45"
+          }
+        },
+        {
+          "id": "mobility_004",
+          "name": "Wall Shoulder Flexion",
+          "description": "Shoulder mobility - ability to raise arms overhead against wall. Scored 0-3.",
+          "videoUrl": "https://www.youtube.com/embed/Q3-_6l1rqCE",
+          "unit": "score",
+          "measurementType": "qualitative",
+          "goalFormula": {
+            "male": "3",
+            "female": "3"
+          }
+        },
+        {
+          "id": "mobility_005",
+          "name": "Thoracic Rotation",
+          "description": "Spine mobility - range of thoracic rotation in quadruped position. Measured in degrees.",
+          "videoUrl": "https://www.youtube.com/embed/BxAT6h3fOr0",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": "45",
+            "female": "45"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flexibility",
+      "name": "Flexibility",
+      "description": "Passive range of motion and tissue extensibility",
+      "subCategories": [
+        {
+          "name": "Posterior Chain",
+          "testIds": ["flexibility_001"]
+        },
+        {
+          "name": "Hip Flexors",
+          "testIds": ["flexibility_002", "flexibility_003"]
+        },
+        {
+          "name": "Chest",
+          "testIds": ["flexibility_004"]
+        },
+        {
+          "name": "Lats",
+          "testIds": ["flexibility_005"]
+        },
+        {
+          "name": "Neck",
+          "testIds": ["flexibility_006"]
+        },
+        {
+          "name": "Quads",
+          "testIds": ["flexibility_007"]
+        },
+        {
+          "name": "Calves",
+          "testIds": ["flexibility_008"]
+        },
+        {
+          "name": "Shoulders",
+          "testIds": ["flexibility_009"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "flexibility_001",
+          "name": "Sit-and-Reach",
+          "description": "Posterior chain flexibility - reach distance beyond toes while seated.",
+          "videoUrl": "https://www.youtube.com/embed/rqc8HjB5Vow",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "8",
+            "female": "10"
+          }
+        },
+        {
+          "id": "flexibility_002",
+          "name": "Thomas Test",
+          "description": "Hip flexor flexibility - degree of hip extension in supine position.",
+          "videoUrl": "https://www.youtube.com/embed/FDtLrPsPmXo",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": "10",
+            "female": "10"
+          }
+        },
+        {
+          "id": "flexibility_003",
+          "name": "Straight-Leg Raise",
+          "description": "Hamstring and hip mobility - maximum angle of raised leg while supine.",
+          "videoUrl": "https://www.youtube.com/embed/P-KFVRpJ1l0",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": "70",
+            "female": "75"
+          }
+        },
+        {
+          "id": "flexibility_004",
+          "name": "Doorway Pec Stretch",
+          "description": "Pectoral flexibility - shoulder angle in stretched position. Scored 0-3.",
+          "videoUrl": "https://www.youtube.com/embed/JlOkLVe0KpQ",
+          "unit": "score",
+          "measurementType": "qualitative",
+          "goalFormula": {
+            "male": "3",
+            "female": "3"
+          }
+        },
+        {
+          "id": "flexibility_005",
+          "name": "Overhead Lat Stretch",
+          "description": "Lat flexibility - maximum reach distance in overhead position.",
+          "videoUrl": "https://www.youtube.com/embed/VQLCN7u_mXY",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "18",
+            "female": "18"
+          }
+        },
+        {
+          "id": "flexibility_006",
+          "name": "Cervical ROM",
+          "description": "Neck mobility - range of motion in all planes. Average of flexion measurements.",
+          "videoUrl": "https://www.youtube.com/embed/ZGJBWPCbgUg",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": "50",
+            "female": "50"
+          }
+        },
+        {
+          "id": "flexibility_007",
+          "name": "Ely Test",
+          "description": "Quad flexibility - heel to glute distance in prone position.",
+          "videoUrl": "https://www.youtube.com/embed/XJYJXFWuBd4",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "0.5",
+            "female": "0.5"
+          }
+        },
+        {
+          "id": "flexibility_008",
+          "name": "Knee-to-Wall",
+          "description": "Calf and ankle flexibility - minimum distance from wall in lunge position.",
+          "videoUrl": "https://www.youtube.com/embed/1B1fB9VuQ-g",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "4",
+            "female": "4"
+          }
+        },
+        {
+          "id": "flexibility_009",
+          "name": "Apley Scratch Test",
+          "description": "Shoulder flexibility - distance between hands behind back. Negative = hands overlap.",
+          "videoUrl": "https://www.youtube.com/embed/F4nrfPNSzg4",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": "0",
+            "female": "0"
+          }
+        }
+      ]
+    },
+    {
+      "id": "body_composition",
+      "name": "Body Composition",
+      "description": "Body fat percentage and muscular development",
+      "subCategories": [
+        {
+          "name": "Body Metrics",
+          "testIds": ["body_comp_001", "body_comp_002"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "body_comp_001",
+          "name": "Body Fat Percentage",
+          "description": "Lean mass vs fat mass ratio. Measured via DEXA, BodPod, or bioelectrical impedance.",
+          "videoUrl": "https://www.youtube.com/embed/XGHOe1ZKh9c",
+          "unit": "%",
+          "measurementType": "percentage",
+          "goalFormula": {
+            "male": "15",
+            "female": "22"
+          }
+        },
+        {
+          "id": "body_comp_002",
+          "name": "Lean Body Mass",
+          "description": "Total muscle mass - muscle tissue weight excluding fat.",
+          "videoUrl": "https://www.youtube.com/embed/XGHOe1ZKh9c",
+          "unit": "lbs",
+          "measurementType": "weight",
+          "goalFormula": {
+            "male": "bodyweight * 0.85",
+            "female": "bodyweight * 0.78"
+          }
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "description": "Central stability and trunk strength",
+      "subCategories": [
+        {
+          "name": "Core Endurance",
+          "testIds": ["core_001", "core_002", "core_003"]
+        }
+      ],
+      "tests": [
+        {
+          "id": "core_001",
+          "name": "Plank Hold",
+          "description": "Anterior core endurance - time in isometric plank position.",
+          "videoUrl": "https://www.youtube.com/embed/pSHjTRCQxIw",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": "120",
+            "female": "90"
+          }
+        },
+        {
+          "id": "core_002",
+          "name": "Side Plank Hold",
+          "description": "Lateral core endurance - time on each side in side plank position.",
+          "videoUrl": "https://www.youtube.com/embed/pSHjTRCQxIw",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": "90",
+            "female": "75"
+          }
+        },
+        {
+          "id": "core_003",
+          "name": "Dead Bug",
+          "description": "Core stability - quality of movement without trunk deviation. Scored 0-3.",
+          "videoUrl": "https://www.youtube.com/embed/7M2b2CeTNz4",
+          "unit": "score",
+          "measurementType": "qualitative",
+          "goalFormula": {
+            "male": "3",
+            "female": "3"
+          }
+        }
+      ]
+    }
+  ]
+}
