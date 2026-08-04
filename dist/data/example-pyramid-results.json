@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "createdDate": "2026-08-04",
+    "testDate": "2026-08-01"
+  },
+  "user": {
+    "name": "Alex Morgan",
+    "gender": "male",
+    "age": 42,
+    "bodyweight": 180,
+    "bodyweightUnit": "lbs"
+  },
+  "results": [
+    {
+      "testId": "pyramid_l0_001",
+      "categoryId": "pyramid_level_0",
+      "testName": "Ankle Dorsiflexion",
+      "value": 5.5,
+      "unit": "inches",
+      "notes": "Good mobility"
+    },
+    {
+      "testId": "pyramid_l0_002",
+      "categoryId": "pyramid_level_0",
+      "testName": "Hip Internal Rotation",
+      "value": 32,
+      "unit": "degrees",
+      "notes": "Slightly tight"
+    },
+    {
+      "testId": "pyramid_l0_003",
+      "categoryId": "pyramid_level_0",
+      "testName": "Hip External Rotation",
+      "value": 48,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l0_004",
+      "categoryId": "pyramid_level_0",
+      "testName": "Hip Flexion",
+      "value": 120,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l0_005",
+      "categoryId": "pyramid_level_0",
+      "testName": "Straight Leg Raise",
+      "value": 82,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l0_006",
+      "categoryId": "pyramid_level_0",
+      "testName": "Shoulder Flexion",
+      "value": 178,
+      "unit": "degrees",
+      "notes": "Ribs stayed down"
+    },
+    {
+      "testId": "pyramid_l0_007",
+      "categoryId": "pyramid_level_0",
+      "testName": "Thoracic Rotation",
+      "value": 47,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l0_008",
+      "categoryId": "pyramid_level_0",
+      "testName": "Thoracic Extension",
+      "value": 1,
+      "unit": "pass/fail",
+      "notes": "No compensation observed"
+    },
+    {
+      "testId": "pyramid_l0_009",
+      "categoryId": "pyramid_level_0",
+      "testName": "Neck Rotation",
+      "value": 82,
+      "unit": "degrees",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l1_001",
+      "categoryId": "pyramid_level_1",
+      "testName": "Dead Bug",
+      "value": 10,
+      "unit": "reps",
+      "notes": "5 second lower, no compensation"
+    },
+    {
+      "testId": "pyramid_l1_002",
+      "categoryId": "pyramid_level_1",
+      "testName": "Front Plank",
+      "value": 65,
+      "unit": "seconds",
+      "notes": "Perfect form, breathing normally"
+    },
+    {
+      "testId": "pyramid_l1_003",
+      "categoryId": "pyramid_level_1",
+      "testName": "Side Plank",
+      "value": 48,
+      "unit": "seconds",
+      "notes": "<10% difference between sides"
+    },
+    {
+      "testId": "pyramid_l1_004",
+      "categoryId": "pyramid_level_1",
+      "testName": "Bird Dog",
+      "value": 10,
+      "unit": "reps",
+      "notes": "5 second holds, pelvis level"
+    },
+    {
+      "testId": "pyramid_l1_005",
+      "categoryId": "pyramid_level_1",
+      "testName": "Supine 90/90 March",
+      "value": 22,
+      "unit": "reps",
+      "notes": "Lumbar spine flat throughout"
+    },
+    {
+      "testId": "pyramid_l1_006",
+      "categoryId": "pyramid_level_1",
+      "testName": "Diaphragmatic Breathing",
+      "value": 10,
+      "unit": "breaths",
+      "notes": "Proper brace maintained"
+    },
+    {
+      "testId": "pyramid_l2_001",
+      "categoryId": "pyramid_level_2",
+      "testName": "McGill Curl-Up",
+      "value": 10,
+      "unit": "reps",
+      "notes": "10 second holds, no pain"
+    },
+    {
+      "testId": "pyramid_l2_002",
+      "categoryId": "pyramid_level_2",
+      "testName": "Sorensen Hold",
+      "value": 95,
+      "unit": "seconds",
+      "notes": "Strong lower back endurance"
+    },
+    {
+      "testId": "pyramid_l2_003",
+      "categoryId": "pyramid_level_2",
+      "testName": "Side Bridge",
+      "value": 78,
+      "unit": "seconds",
+      "notes": "8% difference between sides"
+    },
+    {
+      "testId": "pyramid_l2_004",
+      "categoryId": "pyramid_level_2",
+      "testName": "Pallof Press",
+      "value": 10,
+      "unit": "reps",
+      "notes": "No trunk rotation"
+    },
+    {
+      "testId": "pyramid_l2_005",
+      "categoryId": "pyramid_level_2",
+      "testName": "Farmer Carry",
+      "value": 62,
+      "unit": "seconds",
+      "notes": "45 lbs each side, perfect posture"
+    },
+    {
+      "testId": "pyramid_l2_006",
+      "categoryId": "pyramid_level_2",
+      "testName": "Suitcase Carry",
+      "value": 61,
+      "unit": "seconds",
+      "notes": "45 lbs one side, no leaning"
+    },
+    {
+      "testId": "pyramid_l2_007",
+      "categoryId": "pyramid_level_2",
+      "testName": "Single-Leg Bridge",
+      "value": 22,
+      "unit": "reps",
+      "notes": "9% difference between legs"
+    },
+    {
+      "testId": "pyramid_l2_008",
+      "categoryId": "pyramid_level_2",
+      "testName": "Hip Hinge Test",
+      "value": 20,
+      "unit": "reps",
+      "notes": "Perfect PVC alignment"
+    },
+    {
+      "testId": "pyramid_l3_001",
+      "categoryId": "pyramid_level_3",
+      "testName": "Single-Leg Balance (Eyes Open)",
+      "value": 62,
+      "unit": "seconds",
+      "notes": "Stable throughout"
+    },
+    {
+      "testId": "pyramid_l3_002",
+      "categoryId": "pyramid_level_3",
+      "testName": "Single-Leg Balance (Eyes Closed)",
+      "value": 32,
+      "unit": "seconds",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l3_003",
+      "categoryId": "pyramid_level_3",
+      "testName": "Single-Leg Romanian Deadlift",
+      "value": 15,
+      "unit": "reps",
+      "notes": "No foot touching"
+    },
+    {
+      "testId": "pyramid_l3_004",
+      "categoryId": "pyramid_level_3",
+      "testName": "Step-Down Test",
+      "value": 15,
+      "unit": "reps",
+      "notes": "Knees tracking perfectly"
+    },
+    {
+      "testId": "pyramid_l3_005",
+      "categoryId": "pyramid_level_3",
+      "testName": "Y Balance Test",
+      "value": 3.5,
+      "unit": "cm",
+      "notes": "Good symmetry"
+    },
+    {
+      "testId": "pyramid_l3_006",
+      "categoryId": "pyramid_level_3",
+      "testName": "Wall Slide",
+      "value": 15,
+      "unit": "reps",
+      "notes": "No rib flare"
+    },
+    {
+      "testId": "pyramid_l3_007",
+      "categoryId": "pyramid_level_3",
+      "testName": "Scapular Push-Ups",
+      "value": 20,
+      "unit": "reps",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l3_008",
+      "categoryId": "pyramid_level_3",
+      "testName": "Shoulder External Rotation",
+      "value": 20,
+      "unit": "reps",
+      "notes": "Perfect control with band"
+    },
+    {
+      "testId": "pyramid_l3_009",
+      "categoryId": "pyramid_level_3",
+      "testName": "Half-Kneeling Chop/Lift",
+      "value": 15,
+      "unit": "reps",
+      "notes": "No trunk movement"
+    },
+    {
+      "testId": "pyramid_l3_010",
+      "categoryId": "pyramid_level_3",
+      "testName": "Goblet Squat",
+      "value": 15,
+      "unit": "reps",
+      "notes": "25 lb, heels flat, neutral spine"
+    },
+    {
+      "testId": "pyramid_l4_001",
+      "categoryId": "pyramid_level_4",
+      "testName": "Deep Squat",
+      "value": 20,
+      "unit": "reps",
+      "notes": "Perfect alignment"
+    },
+    {
+      "testId": "pyramid_l4_002",
+      "categoryId": "pyramid_level_4",
+      "testName": "Push-Up",
+      "value": 18,
+      "unit": "reps",
+      "notes": "Solid form throughout"
+    },
+    {
+      "testId": "pyramid_l4_003",
+      "categoryId": "pyramid_level_4",
+      "testName": "Dead Hang",
+      "value": 32,
+      "unit": "seconds",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l4_004",
+      "categoryId": "pyramid_level_4",
+      "testName": "Scapular Pull-Ups",
+      "value": 10,
+      "unit": "reps",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l4_005",
+      "categoryId": "pyramid_level_4",
+      "testName": "Split Squat",
+      "value": 16,
+      "unit": "reps",
+      "notes": "Good knee tracking"
+    },
+    {
+      "testId": "pyramid_l4_006",
+      "categoryId": "pyramid_level_4",
+      "testName": "Farmer Carry (Loaded Circuit)",
+      "value": 61,
+      "unit": "seconds",
+      "notes": "45 lbs each hand"
+    },
+    {
+      "testId": "pyramid_l4_007",
+      "categoryId": "pyramid_level_4",
+      "testName": "Suitcase Carry (Loaded Circuit)",
+      "value": 62,
+      "unit": "seconds",
+      "notes": "45 lbs one side"
+    },
+    {
+      "testId": "pyramid_l4_008",
+      "categoryId": "pyramid_level_4",
+      "testName": "Overhead Carry",
+      "value": 63,
+      "unit": "seconds",
+      "notes": ""
+    },
+    {
+      "testId": "pyramid_l4_009",
+      "categoryId": "pyramid_level_4",
+      "testName": "Bottom-Up Kettlebell Hold",
+      "value": 22,
+      "unit": "seconds",
+      "notes": "Each arm, no compensation"
+    },
+    {
+      "testId": "pyramid_l4_010",
+      "categoryId": "pyramid_level_4",
+      "testName": "Turkish Get-Up",
+      "value": 3,
+      "unit": "reps",
+      "notes": "10 lb kettlebell, each side"
+    },
+    {
+      "testId": "pyramid_l4_011",
+      "categoryId": "pyramid_level_4",
+      "testName": "Walking Lunge",
+      "value": 20,
+      "unit": "steps",
+      "notes": "Perfect alignment"
+    },
+    {
+      "testId": "pyramid_l4_012",
+      "categoryId": "pyramid_level_4",
+      "testName": "Single-Leg Hop",
+      "value": 10,
+      "unit": "reps",
+      "notes": "Stick landing, each leg"
+    },
+    {
+      "testId": "pyramid_l4_013",
+      "categoryId": "pyramid_level_4",
+      "testName": "Bear Crawl",
+      "value": 31,
+      "unit": "meters",
+      "notes": "Good form throughout"
+    },
+    {
+      "testId": "pyramid_l4_014",
+      "categoryId": "pyramid_level_4",
+      "testName": "Overhead Reach",
+      "value": 1,
+      "unit": "pass/fail",
+      "notes": "No lumbar extension"
+    }
+  ]
+}

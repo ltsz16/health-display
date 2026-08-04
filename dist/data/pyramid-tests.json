@@ -1,0 +1,599 @@
+{
+  "categories": [
+    {
+      "id": "pyramid_level_0",
+      "name": "Mobility & Tissue Capacity",
+      "description": "Foundational layer - assess joint mobility and tissue capacity",
+      "pyramidLevel": 0,
+      "goalDescription": "Able to maintain joint position, spinal alignment, and movement quality under gradually increasing load.",
+      "tests": [
+        {
+          "id": "pyramid_l0_001",
+          "name": "Ankle Dorsiflexion",
+          "description": "Knee 5 in (12–13 cm) past toes in knee-to-wall test",
+          "unit": "inches",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": 5,
+            "female": 5
+          }
+        },
+        {
+          "id": "pyramid_l0_002",
+          "name": "Hip Internal Rotation",
+          "description": "Hip internal rotation test - each side",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": 30,
+            "female": 30
+          }
+        },
+        {
+          "id": "pyramid_l0_003",
+          "name": "Hip External Rotation",
+          "description": "Hip external rotation test",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": 45,
+            "female": 45
+          }
+        },
+        {
+          "id": "pyramid_l0_004",
+          "name": "Hip Flexion",
+          "description": "Hip flexion range of motion",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": 115,
+            "female": 115
+          }
+        },
+        {
+          "id": "pyramid_l0_005",
+          "name": "Straight Leg Raise",
+          "description": "Straight leg raise height",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": 80,
+            "female": 80
+          }
+        },
+        {
+          "id": "pyramid_l0_006",
+          "name": "Shoulder Flexion",
+          "description": "Arms reach overhead with ribs down (≈170–180°)",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": 175,
+            "female": 175
+          }
+        },
+        {
+          "id": "pyramid_l0_007",
+          "name": "Thoracic Rotation",
+          "description": "Thoracic rotation test - each side",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": 45,
+            "female": 45
+          }
+        },
+        {
+          "id": "pyramid_l0_008",
+          "name": "Thoracic Extension",
+          "description": "Can reach overhead against wall without compensation",
+          "unit": "pass/fail",
+          "measurementType": "binary",
+          "goalFormula": {
+            "male": 1,
+            "female": 1
+          }
+        },
+        {
+          "id": "pyramid_l0_009",
+          "name": "Neck Rotation",
+          "description": "Neck rotation test - each direction",
+          "unit": "degrees",
+          "measurementType": "angle",
+          "goalFormula": {
+            "male": 80,
+            "female": 80
+          }
+        },
+        {
+          "id": "pyramid_l0_010",
+          "name": "Flexion : Extension Ratio",
+          "description": "Target ratio: ~1.0",
+          "unit": "ratio",
+          "measurementType": "ratio",
+          "goalFormula": {
+            "male": 1.0,
+            "female": 1.0
+          }
+        },
+        {
+          "id": "pyramid_l0_011",
+          "name": "Side Bridge : Extension Ratio (each side)",
+          "description": "Target ratio: ~0.75",
+          "unit": "ratio",
+          "measurementType": "ratio",
+          "goalFormula": {
+            "male": 0.75,
+            "female": 0.75
+          }
+        },
+        {
+          "id": "pyramid_l0_012",
+          "name": "Left : Right Side Bridge Balance",
+          "description": "Target difference: ≥0.95 ratio",
+          "unit": "ratio",
+          "measurementType": "ratio",
+          "goalFormula": {
+            "male": 0.95,
+            "female": 0.95
+          }
+        }
+      ]
+    },
+    {
+      "id": "pyramid_level_1",
+      "name": "Core Stability",
+      "description": "Can I stabilize my spine? Focus on deep abdominal system.",
+      "pyramidLevel": 1,
+      "goalDescription": "Ability to stabilize the spine through the deep core system (transverse abdominis, internal/external obliques, multifidus, diaphragm, pelvic floor).",
+      "tests": [
+        {
+          "id": "pyramid_l1_001",
+          "name": "Dead Bug",
+          "description": "10 slow reps per side, 5 second lowering, zero compensation",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 10,
+            "female": 10
+          }
+        },
+        {
+          "id": "pyramid_l1_002",
+          "name": "Front Plank",
+          "description": "60 seconds, perfectly straight body, breathing normally, no shaking",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 60,
+            "female": 60
+          }
+        },
+        {
+          "id": "pyramid_l1_003",
+          "name": "Side Plank",
+          "description": "45 seconds each side, difference between sides <10%",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 45,
+            "female": 45
+          }
+        },
+        {
+          "id": "pyramid_l1_004",
+          "name": "Bird Dog",
+          "description": "10 repetitions each side, 5-second holds, pelvis absolutely level",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 10,
+            "female": 10
+          }
+        },
+        {
+          "id": "pyramid_l1_005",
+          "name": "Supine 90/90 March",
+          "description": "20 controlled marches, lumbar spine remains flat",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        },
+        {
+          "id": "pyramid_l1_006",
+          "name": "Diaphragmatic Breathing",
+          "description": "10 slow breaths while maintaining abdominal brace",
+          "unit": "breaths",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 10,
+            "female": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "pyramid_level_2",
+      "name": "Full Core",
+      "description": "Can my spine remain stable while arms and legs move?",
+      "pyramidLevel": 2,
+      "goalDescription": "Spine resists outside forces with dynamic limb movement. Includes erector spinae, quadratus lumborum, thoracolumbar fascia, rotators, and anti-rotation muscles.",
+      "tests": [
+        {
+          "id": "pyramid_l2_001",
+          "name": "McGill Curl-Up",
+          "description": "10 reps with 10-second holds, no pain, no compensation",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 10,
+            "female": 10
+          }
+        },
+        {
+          "id": "pyramid_l2_002",
+          "name": "Sorensen Hold",
+          "description": "Back extension endurance test - 90 seconds",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 90,
+            "female": 90
+          }
+        },
+        {
+          "id": "pyramid_l2_003",
+          "name": "Side Bridge",
+          "description": "75 seconds each side, <10% difference between sides",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 75,
+            "female": 75
+          }
+        },
+        {
+          "id": "pyramid_l2_004",
+          "name": "Pallof Press",
+          "description": "10 presses each direction without rotating",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 10,
+            "female": 10
+          }
+        },
+        {
+          "id": "pyramid_l2_005",
+          "name": "Farmer Carry",
+          "description": "Carry 25% bodyweight each hand for 60 seconds, perfect posture",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 60,
+            "female": 60
+          }
+        },
+        {
+          "id": "pyramid_l2_006",
+          "name": "Suitcase Carry",
+          "description": "Carry 25% bodyweight one side only, 60 seconds without leaning",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 60,
+            "female": 60
+          }
+        },
+        {
+          "id": "pyramid_l2_007",
+          "name": "Single-Leg Bridge",
+          "description": "20 reps each leg, <10% difference between sides",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        },
+        {
+          "id": "pyramid_l2_008",
+          "name": "Hip Hinge Test",
+          "description": "PVC touching head, upper back, sacrum - 20 perfect hinges",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "pyramid_level_3",
+      "name": "Trunk Stability",
+      "description": "Can the hips and shoulders stabilize everything?",
+      "pyramidLevel": 3,
+      "goalDescription": "Hips, scapulae, thoracic spine, and neck work in harmony to stabilize the trunk during dynamic movement.",
+      "tests": [
+        {
+          "id": "pyramid_l3_001",
+          "name": "Single-Leg Balance (Eyes Open)",
+          "description": "60 seconds on each leg, eyes open",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 60,
+            "female": 60
+          }
+        },
+        {
+          "id": "pyramid_l3_002",
+          "name": "Single-Leg Balance (Eyes Closed)",
+          "description": "30 seconds on each leg, eyes closed",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 30,
+            "female": 30
+          }
+        },
+        {
+          "id": "pyramid_l3_003",
+          "name": "Single-Leg Romanian Deadlift",
+          "description": "15 reps each leg without touching opposite foot",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 15,
+            "female": 15
+          }
+        },
+        {
+          "id": "pyramid_l3_004",
+          "name": "Step-Down Test",
+          "description": "8-inch box, 15 perfect reps each side, knees tracking correctly",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 15,
+            "female": 15
+          }
+        },
+        {
+          "id": "pyramid_l3_005",
+          "name": "Y Balance Test",
+          "description": "Reach difference <4 cm between sides",
+          "unit": "cm",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": 4,
+            "female": 4
+          }
+        },
+        {
+          "id": "pyramid_l3_006",
+          "name": "Wall Slide",
+          "description": "15 repetitions without rib flare",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 15,
+            "female": 15
+          }
+        },
+        {
+          "id": "pyramid_l3_007",
+          "name": "Scapular Push-Ups",
+          "description": "20 repetitions with proper scapular control",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        },
+        {
+          "id": "pyramid_l3_008",
+          "name": "Shoulder External Rotation",
+          "description": "Band work, 20 reps each side, perfect control",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        },
+        {
+          "id": "pyramid_l3_009",
+          "name": "Half-Kneeling Chop/Lift",
+          "description": "15 reps each direction without trunk movement",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 15,
+            "female": 15
+          }
+        },
+        {
+          "id": "pyramid_l3_010",
+          "name": "Goblet Squat",
+          "description": "25 lb, 15 perfect reps, heels flat, neutral spine, knees track correctly",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 15,
+            "female": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "pyramid_level_4",
+      "name": "Full Body Stability",
+      "description": "Can every link in the chain work together?",
+      "pyramidLevel": 4,
+      "goalDescription": "Full body integration - proving the body is prepared for resistance training and complex movement patterns.",
+      "tests": [
+        {
+          "id": "pyramid_l4_001",
+          "name": "Deep Squat",
+          "description": "20 perfect bodyweight squats with proper alignment",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        },
+        {
+          "id": "pyramid_l4_002",
+          "name": "Push-Up",
+          "description": "15 perfect push-ups (or elevated if needed)",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 15,
+            "female": 15
+          }
+        },
+        {
+          "id": "pyramid_l4_003",
+          "name": "Dead Hang",
+          "description": "30-second dead hang from pull-up bar",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 30,
+            "female": 30
+          }
+        },
+        {
+          "id": "pyramid_l4_004",
+          "name": "Scapular Pull-Ups",
+          "description": "10 scapular pull-ups with proper form",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 10,
+            "female": 10
+          }
+        },
+        {
+          "id": "pyramid_l4_005",
+          "name": "Split Squat",
+          "description": "15 reps each side with proper knee tracking",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 15,
+            "female": 15
+          }
+        },
+        {
+          "id": "pyramid_l4_006",
+          "name": "Farmer Carry (Loaded Circuit)",
+          "description": "60 seconds, 25% bodyweight each hand, perfect posture",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 60,
+            "female": 60
+          }
+        },
+        {
+          "id": "pyramid_l4_007",
+          "name": "Suitcase Carry (Loaded Circuit)",
+          "description": "60 seconds, 25% bodyweight one side",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 60,
+            "female": 60
+          }
+        },
+        {
+          "id": "pyramid_l4_008",
+          "name": "Overhead Carry",
+          "description": "60 seconds overhead without lumbar extension",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 60,
+            "female": 60
+          }
+        },
+        {
+          "id": "pyramid_l4_009",
+          "name": "Bottom-Up Kettlebell Hold",
+          "description": "Without compensation, 20 seconds each arm",
+          "unit": "seconds",
+          "measurementType": "time",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        },
+        {
+          "id": "pyramid_l4_010",
+          "name": "Turkish Get-Up",
+          "description": "10 lb kettlebell, 3 reps each side, perfect form",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 3,
+            "female": 3
+          }
+        },
+        {
+          "id": "pyramid_l4_011",
+          "name": "Walking Lunge",
+          "description": "20 steps with perfect alignment and balance",
+          "unit": "steps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 20,
+            "female": 20
+          }
+        },
+        {
+          "id": "pyramid_l4_012",
+          "name": "Single-Leg Hop",
+          "description": "Stick landing, 10 reps each leg, perfect balance",
+          "unit": "reps",
+          "measurementType": "reps",
+          "goalFormula": {
+            "male": 10,
+            "female": 10
+          }
+        },
+        {
+          "id": "pyramid_l4_013",
+          "name": "Bear Crawl",
+          "description": "30 meters with proper form and control",
+          "unit": "meters",
+          "measurementType": "distance",
+          "goalFormula": {
+            "male": 30,
+            "female": 30
+          }
+        },
+        {
+          "id": "pyramid_l4_014",
+          "name": "Overhead Reach",
+          "description": "Arms fully overhead without lumbar extension",
+          "unit": "pass/fail",
+          "measurementType": "binary",
+          "goalFormula": {
+            "male": 1,
+            "female": 1
+          }
+        }
+      ]
+    }
+  ]
+}

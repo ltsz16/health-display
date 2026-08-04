@@ -1,0 +1,360 @@
+.pyramid-page {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  border-radius: 12px;
+}
+
+.pyramid-page .back-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.pyramid-page .back-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+.pyramid-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.pyramid-header h2 {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.pyramid-subtitle {
+  font-size: 1.1rem;
+  color: #718096;
+  margin: 0;
+  font-style: italic;
+}
+
+.pyramid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .pyramid-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Pyramid Visualization */
+.pyramid-visualization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 600px;
+  background: white;
+  border-radius: 12px;
+  padding: 3rem 2rem 2rem 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.pyramid-layer {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pyramid-layer:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.level-4 {
+  width: 120px;
+  height: 80px;
+  font-size: 0.85rem;
+  margin-bottom: -1px;
+  z-index: 5;
+}
+
+.level-3 {
+  width: 200px;
+  height: 100px;
+  font-size: 0.95rem;
+  margin-bottom: -2px;
+  z-index: 4;
+}
+
+.level-2 {
+  width: 280px;
+  height: 120px;
+  font-size: 1rem;
+  margin-bottom: -2px;
+  z-index: 3;
+}
+
+.level-1 {
+  width: 360px;
+  height: 140px;
+  font-size: 1.05rem;
+  margin-bottom: -2px;
+  z-index: 2;
+}
+
+.level-0 {
+  width: 440px;
+  height: 160px;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.layer-label {
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.layer-name {
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 0.3rem;
+}
+
+.layer-progress {
+  font-size: 0.85em;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+/* Pyramid Info Panel */
+.pyramid-info {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.pyramid-info h3 {
+  font-size: 1.5rem;
+  color: #2d3748;
+  margin: 0 0 1.5rem 0;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+.levels-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.level-card {
+  border-left: 5px solid #667eea;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.level-card:hover {
+  background: #f0f4ff;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.level-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.level-color-indicator {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.level-card-title h4 {
+  font-size: 1.1rem;
+  color: #2d3748;
+  margin: 0 0 0.3rem 0;
+  font-weight: 700;
+}
+
+.level-progress-text {
+  font-size: 0.85rem;
+  color: #718096;
+  margin: 0;
+}
+
+.level-card-score {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #667eea;
+  min-width: 60px;
+  text-align: right;
+}
+
+.level-card-description {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.level-card-goal {
+  font-size: 0.9rem;
+  color: #2d3748;
+  margin: 0.75rem 0 0 0;
+  line-height: 1.4;
+}
+
+.level-status {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.status-cleared {
+  color: #00aa00;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.status-progress {
+  color: #f6ad55;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Legend */
+.pyramid-legend {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  margin-top: 2rem;
+}
+
+.pyramid-legend h3 {
+  font-size: 1.3rem;
+  color: #2d3748;
+  margin: 0 0 1.5rem 0;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.legend-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.legend-color {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.legend-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.legend-label {
+  font-weight: 700;
+  color: #2d3748;
+  font-size: 0.95rem;
+}
+
+.legend-range {
+  font-size: 0.85rem;
+  color: #718096;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pyramid-page {
+    padding: 1rem;
+  }
+
+  .pyramid-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .pyramid-visualization {
+    min-height: 400px;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  .level-4 {
+    width: 100px;
+    height: 60px;
+  }
+
+  .level-3 {
+    width: 160px;
+    height: 80px;
+  }
+
+  .level-2 {
+    width: 220px;
+    height: 100px;
+  }
+
+  .level-1 {
+    width: 280px;
+    height: 120px;
+  }
+
+  .level-0 {
+    width: 340px;
+    height: 140px;
+  }
+
+  .legend-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pyramid-container {
+    gap: 1.5rem;
+  }
+}

@@ -4,13 +4,15 @@ import DataLoader from './components/DataLoader'
 import Dashboard from './components/Dashboard'
 import CategoryPage from './components/CategoryPage'
 import PictureComparison from './components/PictureComparison'
+import PyramidPage from './components/PyramidPage'
 import TestResultsForm from './components/TestResultsForm'
+import PyramidTestResultsForm from './components/PyramidTestResultsForm'
 import { calculatePercentageToGoal, calculateComplianceScore } from './utils/calculations'
 
 function App() {
   const [testsData, setTestsData] = useState(null)
   const [resultsData, setResultsData] = useState(null)
-  const [currentPage, setCurrentPage] = useState('loader') // loader, dashboard, category, pictures, form
+  const [currentPage, setCurrentPage] = useState('loader') // loader, dashboard, category, pictures, form, pyramid, pyramid-form
   const [selectedCategory, setSelectedCategory] = useState(null)
 
   useEffect(() => {
@@ -35,6 +37,10 @@ function App() {
     setCurrentPage('pictures')
   }
 
+  const handleViewPyramid = () => {
+    setCurrentPage('pyramid')
+  }
+
   const handleBackToDashboard = () => {
     setCurrentPage('dashboard')
   }
@@ -47,6 +53,10 @@ function App() {
 
   const handleOpenForm = () => {
     setCurrentPage('form')
+  }
+
+  const handleOpenPyramidForm = () => {
+    setCurrentPage('pyramid-form')
   }
 
   const handleBackFromForm = () => {
@@ -62,12 +72,20 @@ function App() {
 
       <nav className="app-nav">
         {!resultsData && currentPage === 'loader' && (
-          <button
-            className={`nav-btn ${currentPage === 'form' ? 'active' : ''}`}
-            onClick={handleOpenForm}
-          >
-            ➕ Create New Results
-          </button>
+          <>
+            <button
+              className={`nav-btn ${currentPage === 'form' ? 'active' : ''}`}
+              onClick={handleOpenForm}
+            >
+              ➕ Create New Results
+            </button>
+            <button
+              className={`nav-btn ${currentPage === 'pyramid-form' ? 'active' : ''}`}
+              onClick={handleOpenPyramidForm}
+            >
+              🔺 Create Pyramid Results
+            </button>
+          </>
         )}
         {resultsData && (
           <>
@@ -76,6 +94,12 @@ function App() {
               onClick={handleBackToDashboard}
             >
               Dashboard
+            </button>
+            <button
+              className={`nav-btn ${currentPage === 'pyramid' ? 'active' : ''}`}
+              onClick={handleViewPyramid}
+            >
+              🔺 Progression Pyramid
             </button>
             <button
               className={`nav-btn ${currentPage === 'pictures' ? 'active' : ''}`}
@@ -101,6 +125,10 @@ function App() {
         {currentPage === 'form' && (
           <TestResultsForm onBack={handleBackFromForm} />
         )}
+
+        {currentPage === 'pyramid-form' && (
+          <PyramidTestResultsForm onBack={handleBackFromForm} />
+        )}
         
         {currentPage === 'dashboard' && resultsData && testsData && (
           <Dashboard
@@ -121,6 +149,13 @@ function App() {
 
         {currentPage === 'pictures' && (
           <PictureComparison />
+        )}
+
+        {currentPage === 'pyramid' && resultsData && (
+          <PyramidPage
+            results={resultsData}
+            onBack={handleBackToDashboard}
+          />
         )}
       </main>
 
