@@ -4,12 +4,13 @@ import DataLoader from './components/DataLoader'
 import Dashboard from './components/Dashboard'
 import CategoryPage from './components/CategoryPage'
 import PictureComparison from './components/PictureComparison'
+import TestResultsForm from './components/TestResultsForm'
 import { calculatePercentageToGoal, calculateComplianceScore } from './utils/calculations'
 
 function App() {
   const [testsData, setTestsData] = useState(null)
   const [resultsData, setResultsData] = useState(null)
-  const [currentPage, setCurrentPage] = useState('loader') // loader, dashboard, category, pictures
+  const [currentPage, setCurrentPage] = useState('loader') // loader, dashboard, category, pictures, form
   const [selectedCategory, setSelectedCategory] = useState(null)
 
   useEffect(() => {
@@ -44,6 +45,14 @@ function App() {
     setSelectedCategory(null)
   }
 
+  const handleOpenForm = () => {
+    setCurrentPage('form')
+  }
+
+  const handleBackFromForm = () => {
+    setCurrentPage('loader')
+  }
+
   return (
     <div className="app">
       <header className="app-header">
@@ -52,6 +61,14 @@ function App() {
       </header>
 
       <nav className="app-nav">
+        {!resultsData && currentPage === 'loader' && (
+          <button
+            className={`nav-btn ${currentPage === 'form' ? 'active' : ''}`}
+            onClick={handleOpenForm}
+          >
+            ➕ Create New Results
+          </button>
+        )}
         {resultsData && (
           <>
             <button
@@ -79,6 +96,10 @@ function App() {
       <main className="app-main">
         {currentPage === 'loader' && (
           <DataLoader onDataLoaded={handleDataLoaded} />
+        )}
+
+        {currentPage === 'form' && (
+          <TestResultsForm onBack={handleBackFromForm} />
         )}
         
         {currentPage === 'dashboard' && resultsData && testsData && (
